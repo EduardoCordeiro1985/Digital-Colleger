@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body { 
+    background-color: black; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 100px;
+    background-color: #630707;
+    display: flex;
+    padding: 0px 10px;
+}
+#logo {
+    width: 20%;
+}
+#logo img {
+    height: 100%;
+}
+
+#menu {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/*MENU*/
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    border-right: 1px solid white;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: .9em;
+}
+nav ul li a:hover {
+   border-bottom: 2px solid yellow;
+}
+
+#slideshow {
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+.conteudo-slide {
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.conteudo-slide img {
+    height: 100%;
+}
+
+.titulo-destaque {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.banners {
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna {
+    width: 33.33%;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.card {
+    width: 50%;
+    border: 1px solid black;
+}
+
+
+footer {
+    height: 150px;
+    background-color: #555;
+    display: flex;
+}
+
+.col-f {
+    width: 25%;
+    border: 1px solid black;
+}
+
+
+.banners {
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna {
+    width: 33.33%;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+
+#cards {
+    height: 150px;
+    background-color: #555;
+    display: flex;
+}
+
+.card {
+    width: 50%;
+    border: 1px solid black;
+}
+
+
+footer {
+    height: 150px;
+    background-color: #555;
+    display: flex;
+}
+
+.col-f {
+    width: 25%;
+    border: 1px solid black;
+}

@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    color: #5a5959;
+    padding: 5px;
+}
+
+h1, h2{
+    background-color: #CD853F;
+    padding: 10px;
+    color: 	#844112;
+}
+
+h1{
+    margin: 0px;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+ol, ul{
+    line-height: 25px;
+}
+
+.btn-youtube{
+    background-color: #CD853F;
+    color: #844112;
+    text-decoration: none;
+    padding: 15px 32px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn-youtube:hover{
+    background-color: #cd863fd1;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container > section {
+    background-color: #f1f1f1;
+    height: 350px;
+}
+
+.flex-container > .img-about {
+    width: 60%;
+}
+
+.flex-container > .paragrafo-about {
+    width: 60%;
+    padding: 10px;
+    font-size: 26px;
+    text-align: center;
+    font-family:cursive;
+}
+
+ .btn-voltar{
+    background-color: #bcbcbc;
+    color: #696868;
+    text-decoration: none;
+    padding: 5px 5px;
+    display: inline-block;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.linked{
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    
+}

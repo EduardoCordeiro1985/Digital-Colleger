@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!-- method="GET" -->
+    <form action="receba.php" method="POST">
+        <label for="nome">Nome</label>
+        <input 
+            type="text" 
+            name="nome" 
+            placeholder="José da Silva"
+            id="nome"
+    
+        />
+        <br>
+        <label for="senha">Nova Senha</label>
+        <input 
+            type="password" 
+            name="senha" 
+            placeholder="***"
+            id="senha"
+        />
+        <br>
+        <label>Cursos:</label> <br>
+        
+        <input type="checkbox" name="html5" id="html5">
+        <label for="html5">HTML5</label>
+        <br>
+        <input type="checkbox" name="css3" id="css3">
+        <label for="css3">CSS3</label>
+        <br>
+        <input type="checkbox" name="javascript" id="javascript">
+        <label for="javascript">JavaScript</label>
+     
+        <br>
+        <label for="">Estado Civil</label>
+        <br>
+        <input type="radio" name="estado_civil" id="casado" value="casado">
+        <label for="casado">Casado(a)</label>
+        <br>
+        <input type="radio" name="estado_civil" id="solteiro" value="solteiro">
+        <label for="solteiro">Solteiro(a)</label>
+        <br>
+        
+        <label for="profissao">Profissão</label>
+        <select name="profissao" id="profissao" required>
+            <option value="">Selecione</option>
+            <option value="frontend">Frontend</option>
+            <option value="backend">Backend</option>
+            <option value="fullstack">FullStack</option>
+            <option value="dba">DBA</option>
+        </select>
+        <br>
+        <label for="mensagem">Mensagem</label> <br>
+        <textarea 
+            rows="5" 
+            cols="30" 
+            name="mensagem" 
+            id="mensagem" 
+            placeholder="Mensagem"
+        ></textarea>
+        <br>
+
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+</html>
